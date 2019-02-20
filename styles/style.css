@@ -81,12 +81,15 @@ h2{
   top:0;
 }
 @keyframes droplet {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  10%, 30% {
     opacity: 1;
   }
+100%{
+	top:20em;
+}
 }
 
 @keyframes dripdrop{
